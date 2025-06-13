@@ -140,3 +140,31 @@ Model: "sequential"
 ```
 ---
 
+## Jupyter Notebook:
+
+### Activate Venv enviornment
+```
+venv\Scripts\activate
+```
+
+### Run and open Jupyter Notebook
+```
+jupyter notebook notebooks/loan_default_analysis.ipynb
+```
+
+### Run the file
+>> Select "Run all cells"
+
+## 1. Ensure the following structure in your Project Directory:
+
+```
+house_loan_analysis/
+├── data/
+│   └── loan_data.csv           # Main dataset    
+├── outputs/
+├── models/
+├── notebooks/
+│   └── loan_default_analysis.ipynb
+```
+
+---
